@@ -101,6 +101,8 @@ extension CountryCell {
     
     func setupViews() {
         
+        backgroundColor = .clear
+        
         // Add country flag & check mark views
         countryFlagStackView.addArrangedSubview(flagImageView)
         countryCheckStackView.addArrangedSubview(checkMarkImageView)
