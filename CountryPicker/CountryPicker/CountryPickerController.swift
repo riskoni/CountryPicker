@@ -67,6 +67,7 @@ open class CountryPickerController: UIViewController {
         tableView.contentInset = UIEdgeInsets.zero
         tableView.estimatedRowHeight = 70.0
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.backgroundColor = .clear
         return tableView
     }()
     
